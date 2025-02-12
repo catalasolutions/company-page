@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catala</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 flex items-center justify-center h-screen flex-col relative">
+
+    <!-- Bootstrap Offcanvas Navbar -->
+    <nav class="navbar navbar fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/images/icon.png" class="icon-img" alt="Logo"></a>
+            <button class=" light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                  </svg></span>
+            </button>
+            <style>
+.offcanvas-custom {
+    background: none; /* Removes the background */
+    backdrop-filter: blur(10px); /* Adds the blur effect */
+}
+
+            </style>
+            
+            <div class="offcanvas offcanvas-end offcanvas-custom" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header text-3xl text-white">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body text-3xl">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 px-5">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" aria-current="page" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </nav>
+
+    <div id="content" class="text-center mt-0 sm:mt-16 p-4 px-4">
+        <h1 id="typingText" class="text-4xl sm:text-5xl md:text-6xl text-white font-bold">
+            A Solution Driven <span class="text-gradient-2">Startup</span>
+        </h1>
+        
+
+        <div class="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto px-4">
+            <!-- Card 1 -->
+            <div class="text-card lg:p-6 rounded-lg shadow-lg flex flex-col items-center justify-center">
+                <i class="bi bi-laptop text-4xl sm:text-3xl md:text-4xl mb-2"></i> <!-- Laptop Icon -->
+                <h3 class="text-lg sm:text-4xl md:text-2xl font-semibold">Website Development</h3>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="lg:p-6 rounded-lg shadow-lg text-card flex flex-col items-center justify-center">
+                <i class="bi bi-phone text-4xl sm:text-3xl md:text-4xl mb-2"></i> <!-- Large Phone Icon -->
+                <h3 class="text-lg sm:text-4xl md:text-2xl font-semibold">Mobile App Development</h3>
+            </div>
+            
+            <!-- Card 3 -->
+            <div class="text-card lg:p-6 rounded-lg shadow-lg flex flex-col items-center justify-center">
+                <i class="bi bi-bezier text-4xl sm:text-3xl md:text-4xl mb-2"></i> <!-- Bezier Icon -->
+                <h3 class="text-lg sm:text-4xl md:text-2xl font-semibold">UI/UX Designing</h3>
+            </div>
+            
+            <!-- Card 4 -->
+            <div class="text-card lg:p-6 rounded-lg shadow-lg flex flex-col items-center justify-center">
+                <i class="bi bi-graph-up-arrow text-4xl sm:text-3xl md:text-4xl mb-2"></i> <!-- Graph Up Arrow Icon -->
+                <h3 class="text-lg sm:text-4xl md:text-2xl font-semibold">Digital Marketing</h3>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

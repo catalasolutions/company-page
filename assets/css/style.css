@@ -1,0 +1,43 @@
+/* Default background */
+body {
+    background-image: url('../images/bg.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+@media (max-width: 768px) {
+    body {
+        background-image: url('../images/bg-small.png'); /* Replace with your small screen image path */
+    }
+}
+
+.text-gradient-1 {
+    background: linear-gradient(90deg, #f6dc8d, #e95151);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.text-gradient-2 {
+    background: linear-gradient(90deg, #f68dc2, #6481f5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.text-card{
+    background: linear-gradient(90deg, #f68dc2, #6481f5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.icon-img {
+    height: 70px;
+}
+i {
+    padding-right: 10px;
+    font-size: 48px; /* Adjust the size as needed */
+  }
+  
